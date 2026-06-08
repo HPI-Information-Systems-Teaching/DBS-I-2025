@@ -20,6 +20,31 @@ object Movies {
     )
 
     @JvmField
+    val WIB_2009 = Movie(
+        "tt22502636",
+        "Willkommen in Berlin",
+        2009,
+        setOf("Documentary")
+    )
+
+    @JvmField
+    val ANH_1977 = Movie(
+        "tt0076759",
+        "Star Wars: Episode IV - A New Hope",
+        1977,
+        setOf("Action", "Adventure", "Fantasy")
+    )
+
+    @JvmField
+    val RTT_2007 = Movie(
+        "tt0382932",
+        "Ratatouille",
+        2007,
+        setOf("Adventure", "Animation", "Comedy")
+
+    )
+
+    @JvmField
     val GITS_1995 = Movie(
         "tt0113568",
         "Ghost in the Shell",
